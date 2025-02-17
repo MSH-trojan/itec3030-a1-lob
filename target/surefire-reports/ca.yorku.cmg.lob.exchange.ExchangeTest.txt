@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: ca.yorku.cmg.lob.exchange.ExchangeTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.104 s <<< FAILURE! -- in ca.yorku.cmg.lob.exchange.ExchangeTest
+ca.yorku.cmg.lob.exchange.ExchangeTest.testSubmitOrder -- Time elapsed: 0.077 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <> but was: <[  3  MSFT   880.77        14       230     23]
+[  7  MSFT   914.54        27      1250    125]
+[  8  GOOG   249.41        23       870     87]
+[  6  GOOG   253.95        19       290     29]
+[  4  GOOG   267.21        21      1090    109]
+[  3  GOOG   278.70         5       160     16]
+[  7  GOOG   351.53        49       450     45]
+[  2  GOOG   455.82        20       470     47]
+[  4  META  1011.28        26       960     96]
+[  1  META  1061.73        26       500     50]
+[  2  META  1070.07        45       350     35]
+[  5  META  1074.56        20       840     84]
+[  4  NVDA   187.27        36      1230    123]
+[  1  NVDA   200.80        13      1150    115]
+[  8  NVDA   265.12         1       340     34]
+[  2  NVDA   287.82        27      1220    122]
+[  2  AAPL   273.57        14      1040    104]
+[  5  AAPL   458.30        47      1120    112]
+[  6  AAPL   464.60        10       900     90]
+[  8  AAPL   496.14        49       540     54]
+[  7  AAPL   555.54        18       330     33]
+[  7  TSLA   657.61        27      1190    119]
+[  3  TSLA   722.30        38        30      3]
+[  7  AVGO   435.33        18      1110    111]
+[  5  AMZN   335.44         7      1130    113]
+[  3  AMZN   443.67        47       790     79]
+>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at ca.yorku.cmg.lob.exchange.ExchangeTest.testSubmitOrder(ExchangeTest.java:59)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
